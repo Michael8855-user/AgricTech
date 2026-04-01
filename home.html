@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgricTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Image1b.png" type="image/x-icon">
+</head>
+<body>
+    <section id="Home">
+      <div class="container1">
+            <div class="header">
+                <header>
+                  <nav class="navbar">
+                    <a href="#" class="Logo">Agric<span>Tech</span></a>
+                   <!--<h4>Agric<span>Tech</span></h4>-->
+                    <ul class="menu">
+                        <img src="Close 2.png" id="close-Btn" class="close">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <!---<li><button class="Francis">Search</button></li>--->
+                    </ul>
+                      <img src="Menu 2.png" id="menu-Btn" class="menu1">
+                </nav>
+                </header>
+                
+            </div>
+            <div class="contentA">
+                <h1>Agric<span>Tech</span>  Limited</h1>
+                <p>Agritech Farming has the mandate to assist farmers to
+                    improve their farming techniques <br> and boost crop yield
+                    by providing comprehensive counselling, training and
+                    the provision <br> of quality farming resources.
+                </p>
+                <button class="Amos">Explore</button>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <!-----------About-------------->
+
+
+     <section id="About">
+         <div class="container2">
+          <h2>About Us</h2>
+    
+        <div class="contentA2">
+           
+            <img src="Image 2.jpg" class="A6">
+            <p> 
+                Agritech is committed to invest and support farmers with
+                viable ideas to imporve the agricultural sector. <br> We are 
+                determined to help farmers with knowledge, data and appropriate
+                inputs to maximize their inputs. <br>
+                We work and partner with various agric stakeholders to ensure
+                that farmers are equipped <br> with the right input to their benefits.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquam, totam
+                odit. Expedita a quia aperiam, ipsa asperiores dicta maxime aliquam <br>
+                laborum soluta quidem, cupiditate assumenda! Incidunt praesentium 
+                nesciunt, animi perferendis <br> dolor ratione a quidem <br> non iusto asperiores 
+                omnis iure reiciendis aut, quisquam, rem officiis veniam. Voluptatum <br> amet 
+                id magni, modi exercitationem? Nobis praesentium corrupti architecto ducimus <br> voluptatum ad 
+                maiores, dolorum, qui obcaecati harum itaque beatae iste cumque vero <br> deleniti mollitia. 
+                Repellendus earum hic, obcaecati quod dolor veritatis vel? Totam <br> ex asperiores cupiditate, 
+                illo dolores excepturi laboriosam modi recusandae <br>quaerat eos sit explicabo a officiis iure
+                mollitia quam eveniet. <br>Accusantium minima unde, autem doloremque impedit numquam <br>exercitationem
+                soluta, ipsum quaerat debitis natus, voluptate saepe?
+            </p>
+    
+            
+        </div>
+    </div>
+     </section>
+    
+        
+
+     
+     <!-------Services--------->
+    
+      <section id="Services">
+            <div class="container">
+            
+    
+            <h2 class="Rosemond">Our Services</h2>
+    
+            <div class="contentA1">
+                <div class="card">
+                    <img src="Services 1.jpg">
+                    <h3>Ensuring Soil Fertility</h3>
+                    <p>We improve soil fertility by adopting <br>
+                        a soil testing mechanisms and <br>counselling
+                        on the <br> ability to increase crop yield
+                    </p>
+                    <button>Read More</button>
+                </div>
+                <div class="card">
+                    <img src="Services 2.jpg">
+                    <h3>Managing Farms</h3>
+                    <p>Agritech manages from medium to large <br> initial-scale 
+                        farms for clients and farms. <br> We also carry out 
+                        greenhouse <br> farming operations.
+                    </p>
+                    <button>Read More</button>
+                </div>
+                <div class="card">
+                    <img src="Services 3.jpg">
+                    <h3>Pest Control and Management</h3>
+                    <p>Agritech team guides and train farmers <br>through 
+                        a comprehensive procedures <br> and outlines of 
+                       pest contol policies <br>to eliminate any future
+                       crop losses.             
+                    </p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     </section>
+    
+        
+    <!-----Contact----->
+    <section id="Contact">
+       <div class="container4">
+
+            <h2>Contact Us</h2>
+    
+            <div class="content">
+                <img src="Image 4.jpg">
+                <form action="">
+                     <h1>Fill Form</h1>
+                    <input type="text"  name="Full Name" placeholder="Full Name"><br><br>
+                    <input type="text" name="Email" placeholder="Email"><br><br>
+                    <input type="Password" name="Password" placeholder="Password"> <br><br>
+                    <input type="password" name="Confirm Password" placeholder="Confirm Password"><br><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+    </section>
+    
+   <script>
+    const header = document.querySelector("header");
+    const menuBtn = document.querySelector("#menu-Btn");
+    const closeBtn = document.querySelector("#close-Btn");
+
+    menuBtn.addEventListener("click", () => {
+        header.classList.toggle("show-mobile-menu");
+    });
+
+    closeBtn.addEventListener("click", () => {
+       menuBtn.click();
+    });
+    
+  </script>
+
+</body>
+</html>
